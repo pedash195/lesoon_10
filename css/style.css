@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+.stand__container {
+	font-family: "Lato";
+	max-width: 810px;
+	margin: 0 auto;
+}
+.stand__title {
+	margin-bottom: 94px;
+}
+h1 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+}
+.stand__img {
+	border-radius: 4px;
+	margin-bottom: 60px;
+}
+
+.stand__subtitle {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 26px;
+}
+.stand__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 46px;
+}
+
+.stand__text p {
+	margin-bottom: 24px;
+}
+
+.stand__text-battom p:not(:last-child){
+	margin-bottom: 36px;
+}
+
+.stand__text ul {
+	max-width: 600px;
+	margin-bottom: 24px;
+}
+
+.stand__text li {
+	margin-bottom: 4px;
+	padding-left: 32px;
+	background: url(../img/icon/check.svg) no-repeat center left;
+}
+
+
+.stand__quote {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 48px;
+	padding-left: 58px;
+	background: url(../img/icon/braces.svg) no-repeat top left;
+}
+
+.stand__text>*:last-child {
+	margin-bottom: 0px;
+}
+ li:last-child {
+	margin-bottom: 0px;
+ }
+
